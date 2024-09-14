@@ -5,10 +5,10 @@ package jp_test
 import (
 	"fmt"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/sen"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/jp"
+	"github.com/CodingBingo/ojg/oj"
+	"github.com/CodingBingo/ojg/sen"
 )
 
 func ExampleExpr_Set() {

@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 // Slice is a slice operation for a JSON path expression.

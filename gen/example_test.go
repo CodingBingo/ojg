@@ -5,9 +5,9 @@ package gen_test
 import (
 	"fmt"
 
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/sen"
+	"github.com/CodingBingo/ojg/gen"
+	"github.com/CodingBingo/ojg/oj"
+	"github.com/CodingBingo/ojg/sen"
 )
 
 func ExampleParser_Parse() {

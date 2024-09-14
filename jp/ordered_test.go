@@ -3,7 +3,7 @@
 package jp_test
 
 import (
-	"github.com/ohler55/ojg/alt"
+	"github.com/CodingBingo/ojg/alt"
 )
 
 type entry struct {

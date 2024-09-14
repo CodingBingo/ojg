@@ -16,10 +16,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/oj"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/gen"
+	"github.com/CodingBingo/ojg/jp"
+	"github.com/CodingBingo/ojg/oj"
 )
 
 const (

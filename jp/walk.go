@@ -5,8 +5,8 @@ package jp
 import (
 	"time"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 // Walk data and call the cb callback for each node in the data. The path is

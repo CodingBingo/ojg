@@ -5,7 +5,7 @@ package jp
 import (
 	"reflect"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 // Locate the values described by the Expr and return a slice of normalized

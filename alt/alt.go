@@ -5,7 +5,7 @@ package alt
 import (
 	"reflect"
 
-	"github.com/ohler55/ojg"
+	"github.com/CodingBingo/ojg"
 )
 
 // Options is an alias for ojg.Options

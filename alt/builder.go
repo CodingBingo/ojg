@@ -5,7 +5,7 @@ package alt
 import (
 	"fmt"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 var emptySlice = []any{}

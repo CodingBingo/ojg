@@ -13,13 +13,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/asm"
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/pretty"
-	"github.com/ohler55/ojg/sen"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/asm"
+	"github.com/CodingBingo/ojg/jp"
+	"github.com/CodingBingo/ojg/oj"
+	"github.com/CodingBingo/ojg/pretty"
+	"github.com/CodingBingo/ojg/sen"
 )
 
 var version = "unknown"

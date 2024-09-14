@@ -7,7 +7,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ohler55/ojg/alt"
+	"github.com/CodingBingo/ojg/alt"
 )
 
 func ExampleDiff() {

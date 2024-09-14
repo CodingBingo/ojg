@@ -1,8 +1,8 @@
-# [![{}j](assets/ojg_comet.svg)](https://github.com/ohler55/ojg)
+# [![{}j](assets/ojg_comet.svg)](https://github.com/CodingBingo/ojg)
 
-[![Build Status](https://github.com/ohler55/ojg/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/ojg/actions)
+[![Build Status](https://github.com/CodingBingo/ojg/actions/workflows/CI.yml/badge.svg)](https://github.com/CodingBingo/ojg/actions)
 [![Coverage Status](https://coveralls.io/repos/github/ohler55/ojg/badge.svg?branch=master)](https://coveralls.io/github/ohler55/ojg?branch=master)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ohler55/ojg)](https://goreportcard.com/report/github.com/ohler55/ojg)
+[![Go Report Card](https://goreportcard.com/badge/github.com/CodingBingo/ojg)](https://goreportcard.com/report/github.com/CodingBingo/ojg)
 
 Optimized JSON for Go is a high performance parser with a variety of
 additional JSON tools. OjG is optimized to processing huge data sets
@@ -57,8 +57,8 @@ allows interfaces to be marshalled and unmarshalled.
 
 ## Installation
 ```
-go get github.com/ohler55/ojg
-go get github.com/ohler55/ojg/cmd/oj
+go get github.com/CodingBingo/ojg
+go get github.com/CodingBingo/ojg/cmd/oj
 
 ```
 
@@ -66,12 +66,12 @@ or just import in your `.go` files.
 
 ```
 import (
-    "github.com/ohler55/ojg/alt"
-    "github.com/ohler55/ojg/asm"
-    "github.com/ohler55/ojg/gen"
-    "github.com/ohler55/ojg/jp"
-    "github.com/ohler55/ojg/oj"
-    "github.com/ohler55/ojg/sen"
+    "github.com/CodingBingo/ojg/alt"
+    "github.com/CodingBingo/ojg/asm"
+    "github.com/CodingBingo/ojg/gen"
+    "github.com/CodingBingo/ojg/jp"
+    "github.com/CodingBingo/ojg/oj"
+    "github.com/CodingBingo/ojg/sen"
 )
 ```
 
@@ -132,15 +132,15 @@ See [CHANGELOG.md](CHANGELOG.md)
 
 ## Links
 
-- *Documentation*: [https://pkg.go.dev/github.com/ohler55/ojg](https://pkg.go.dev/github.com/ohler55/ojg)
+- *Documentation*: [https://pkg.go.dev/github.com/CodingBingo/ojg](https://pkg.go.dev/github.com/CodingBingo/ojg)
 
-- *GitHub* *repo*: https://github.com/ohler55/ojg
+- *GitHub* *repo*: https://github.com/CodingBingo/ojg
 
 - *JSONPath* draft specification: https://datatracker.ietf.org/doc/draft-ietf-jsonpath-base
 
 - *JSONPath Comparisons*: https://cburgmer.github.io/json-path-comparison
 
-- *Go Report Card*: https://goreportcard.com/report/github.com/ohler55/ojg
+- *Go Report Card*: https://goreportcard.com/report/github.com/CodingBingo/ojg
 
 #### Links of Interest
 

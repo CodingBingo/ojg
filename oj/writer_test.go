@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/tt"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/gen"
+	"github.com/CodingBingo/ojg/oj"
+	"github.com/CodingBingo/ojg/tt"
 )
 
 // Used to test Simplifier objects in simple data.
@@ -563,14 +563,14 @@ func TestWriteStructCreateKey(t *testing.T) {
 	opt.FullTypePath = true
 	s = oj.JSON(&sample, &opt)
 	tt.Equal(t, `{
-  "^": "github.com/ohler55/ojg/oj_test/Sample",
+  "^": "github.com/CodingBingo/ojg/oj_test/Sample",
   "x": 1,
   "y": 2
 }`, s)
 
 	opt.Indent = 0
 	s = oj.JSON(&sample, &opt)
-	tt.Equal(t, `{"^":"github.com/ohler55/ojg/oj_test/Sample","x":1,"y":2}`, s)
+	tt.Equal(t, `{"^":"github.com/CodingBingo/ojg/oj_test/Sample","x":1,"y":2}`, s)
 
 	opt.FullTypePath = false
 	s = oj.JSON(&sample, &opt)

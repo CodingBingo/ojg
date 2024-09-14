@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 // DefaultRecomposer provides a shared Recomposer. Note that this should not

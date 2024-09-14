@@ -7,7 +7,7 @@ import (
 	"math"
 	"strconv"
 
-	"github.com/ohler55/ojg"
+	"github.com/CodingBingo/ojg"
 )
 
 // BigLimit is the limit before a number is converted into a Big

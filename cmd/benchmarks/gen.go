@@ -8,7 +8,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 func genParse(b *testing.B) {

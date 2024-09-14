@@ -8,12 +8,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/pretty"
-	"github.com/ohler55/ojg/sen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/gen"
+	"github.com/CodingBingo/ojg/oj"
+	"github.com/CodingBingo/ojg/pretty"
+	"github.com/CodingBingo/ojg/sen"
+	"github.com/CodingBingo/ojg/tt"
 )
 
 const sample = `[true false [3 2 1] {a:1 b:2 c:3 d:[x y z []]}]`

@@ -9,10 +9,10 @@ import (
 	"io"
 	"unicode/utf8"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/oj"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/gen"
+	"github.com/CodingBingo/ojg/oj"
 )
 
 const (

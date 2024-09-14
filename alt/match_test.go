@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/tt"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/tt"
 )
 
 func TestMatchInt(t *testing.T) {

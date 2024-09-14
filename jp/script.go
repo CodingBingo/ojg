@@ -9,8 +9,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 type nothing int

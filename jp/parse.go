@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"unicode/utf8"
 
-	"github.com/ohler55/ojg"
+	"github.com/CodingBingo/ojg"
 )
 
 const (

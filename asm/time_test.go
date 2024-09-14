@@ -5,9 +5,9 @@ package asm_test
 import (
 	"testing"
 
-	"github.com/ohler55/ojg/asm"
-	"github.com/ohler55/ojg/sen"
-	"github.com/ohler55/ojg/tt"
+	"github.com/CodingBingo/ojg/asm"
+	"github.com/CodingBingo/ojg/sen"
+	"github.com/CodingBingo/ojg/tt"
 )
 
 func TestTimeCheck(t *testing.T) {

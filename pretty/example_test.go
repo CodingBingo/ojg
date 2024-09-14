@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/ohler55/ojg/pretty"
-	"github.com/ohler55/ojg/sen"
+	"github.com/CodingBingo/ojg/pretty"
+	"github.com/CodingBingo/ojg/sen"
 )
 
 func ExampleJSON() {

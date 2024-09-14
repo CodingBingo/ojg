@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ohler55/ojg/sen"
+	"github.com/CodingBingo/ojg/sen"
 )
 
 func init() {

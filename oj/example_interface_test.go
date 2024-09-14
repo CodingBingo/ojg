@@ -5,9 +5,9 @@ package oj_test
 import (
 	"fmt"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/oj"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/oj"
 )
 
 // Encode and decode slice of interfaces.

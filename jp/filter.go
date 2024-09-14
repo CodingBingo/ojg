@@ -8,8 +8,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 // Filter is a script used as a filter.

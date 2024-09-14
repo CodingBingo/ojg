@@ -6,10 +6,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/oj"
-	"github.com/ohler55/ojg/tt"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/jp"
+	"github.com/CodingBingo/ojg/oj"
+	"github.com/CodingBingo/ojg/tt"
 )
 
 func TestUnmarshal(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 // Equal return true if two values are equal and fails a test if not equal.

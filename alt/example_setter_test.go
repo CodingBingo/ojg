@@ -5,7 +5,7 @@ package alt_test
 import (
 	"fmt"
 
-	"github.com/ohler55/ojg/alt"
+	"github.com/CodingBingo/ojg/alt"
 )
 
 type Setter struct {

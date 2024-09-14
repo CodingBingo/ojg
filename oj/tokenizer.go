@@ -11,7 +11,7 @@ import (
 	"math"
 	"unicode/utf8"
 
-	"github.com/ohler55/ojg/gen"
+	"github.com/CodingBingo/ojg/gen"
 )
 
 const (

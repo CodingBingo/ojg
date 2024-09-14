@@ -7,9 +7,9 @@ import (
 	"io"
 	"sync"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/alt"
-	"github.com/ohler55/ojg/jp"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/alt"
+	"github.com/CodingBingo/ojg/jp"
 )
 
 // Options is an alias for ojg.Options

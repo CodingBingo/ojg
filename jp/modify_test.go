@@ -6,9 +6,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/ohler55/ojg/gen"
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/tt"
+	"github.com/CodingBingo/ojg/gen"
+	"github.com/CodingBingo/ojg/jp"
+	"github.com/CodingBingo/ojg/tt"
 )
 
 func TestExprModify(t *testing.T) {

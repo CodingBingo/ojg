@@ -15,8 +15,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/ohler55/ojg"
-	"github.com/ohler55/ojg/alt"
+	"github.com/CodingBingo/ojg"
+	"github.com/CodingBingo/ojg/alt"
 )
 
 const (

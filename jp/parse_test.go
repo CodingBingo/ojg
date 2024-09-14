@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ohler55/ojg/jp"
-	"github.com/ohler55/ojg/tt"
+	"github.com/CodingBingo/ojg/jp"
+	"github.com/CodingBingo/ojg/tt"
 )
 
 type xdata struct {
