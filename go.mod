@@ -1,3 +1,3 @@
-module github.com/ohler55/ojg
+module github.com/CodingBingo/ojg
 
 go 1.18
