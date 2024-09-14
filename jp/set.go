@@ -158,7 +158,8 @@ func (x Expr) set(data, value any, fun string, one bool) error {
 						tv[string(tf)] = v
 						stack = append(stack, v)
 					default:
-						return fmt.Errorf("can not deduce what element to add at '%s'", x[:fi+1])
+						break
+						//return fmt.Errorf("can not deduce what element to add at '%s'", x[:fi+1])
 					}
 				}
 			case Keyed:
@@ -204,7 +205,8 @@ func (x Expr) set(data, value any, fun string, one bool) error {
 						tv.SetValueForKey(string(tf), v)
 						stack = append(stack, v)
 					default:
-						return fmt.Errorf("can not deduce what element to add at '%s'", x[:fi+1])
+						break
+						//return fmt.Errorf("can not deduce what element to add at '%s'", x[:fi+1])
 					}
 				}
 			case gen.Object:
@@ -238,7 +240,8 @@ func (x Expr) set(data, value any, fun string, one bool) error {
 						tv[string(tf)] = nv
 						stack = append(stack, nv)
 					default:
-						return fmt.Errorf("can not deduce what element to add at '%s'", x[:fi+1])
+						break
+						//return fmt.Errorf("can not deduce what element to add at '%s'", x[:fi+1])
 					}
 				}
 			default:
