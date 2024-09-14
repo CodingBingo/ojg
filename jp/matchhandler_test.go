@@ -19,9 +19,9 @@ type matchHandlerData struct {
 }
 
 func (md *matchHandlerData) runTest(t *testing.T, i int) {
-	var buf []byte
+	buf := make([]byte, 0)
 	h := jp.NewMatchHandler(func(path jp.Expr, data any) {
-		buf = fmt.Appendf(buf, "%s: %v\n", path, pretty.SEN(data))
+		buf = append(buf, []byte(fmt.Sprintf("%s: %v\n", path, pretty.SEN(data)))...)
 	}, jp.MustParseString(md.target))
 	err := sen.TokenizeString(md.src, h)
 	tt.Nil(t, err)

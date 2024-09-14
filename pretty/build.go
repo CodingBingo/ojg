@@ -141,7 +141,7 @@ func (w *Writer) buildInt(v int64) (n *node) {
 func (w *Writer) buildFloat32(v float32) (n *node) {
 	if 0 < len(w.FloatFormat) {
 		n = &node{
-			buf:  fmt.Appendf(nil, w.FloatFormat, float64(v)),
+			buf:  []byte(fmt.Sprintf(w.FloatFormat, float64(v))),
 			kind: numNode,
 		}
 	} else {
@@ -160,7 +160,7 @@ func (w *Writer) buildFloat32(v float32) (n *node) {
 func (w *Writer) buildFloat64(v float64) (n *node) {
 	if 0 < len(w.FloatFormat) {
 		n = &node{
-			buf:  fmt.Appendf(nil, w.FloatFormat, v),
+			buf:  []byte(fmt.Sprintf(w.FloatFormat, v)),
 			kind: numNode,
 		}
 	} else {

@@ -91,7 +91,7 @@ var (
 func testDiffString(expect, actual []string, diff alt.Path) string {
 	var b []byte
 
-	b = fmt.Appendf(b, "\n      diff at %s\n", diff)
+	b = append(b, []byte(fmt.Sprintf("\n      diff at %s\n", diff))...)
 	b = append(b, "      expect: ["...)
 	for _, str := range expect {
 		b = append(b, "\n        "...)
