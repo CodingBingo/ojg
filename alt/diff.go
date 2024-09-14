@@ -21,12 +21,12 @@ type Path []any
 
 // String representation of the Path.
 func (p Path) String() string {
-	var b []byte
+	b := make([]byte, 0)
 
 	for i, a := range p {
 		switch ta := a.(type) {
 		case int:
-			b = fmt.Appendf(b, "[%d]", ta)
+			b = append(b, []byte(fmt.Sprintf("[%d]", ta))...)
 		case string:
 			if 0 < i {
 				b = append(b, '.')
